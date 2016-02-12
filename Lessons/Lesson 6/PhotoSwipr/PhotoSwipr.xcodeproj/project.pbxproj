@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		244FCE591C6D5EE7006925F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244FCE581C6D5EE7006925F4 /* AppDelegate.swift */; };
+		244FCE5B1C6D5EE7006925F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244FCE5A1C6D5EE7006925F4 /* ViewController.swift */; };
+		244FCE5E1C6D5EE7006925F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 244FCE5C1C6D5EE7006925F4 /* Main.storyboard */; };
+		244FCE601C6D5EE7006925F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 244FCE5F1C6D5EE7006925F4 /* Assets.xcassets */; };
+		244FCE631C6D5EE7006925F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 244FCE611C6D5EE7006925F4 /* LaunchScreen.storyboard */; };
+		244FCE6E1C6D5EE7006925F4 /* PhotoSwiprTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244FCE6D1C6D5EE7006925F4 /* PhotoSwiprTests.swift */; };
+		244FCE791C6D5EE7006925F4 /* PhotoSwiprUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 244FCE781C6D5EE7006925F4 /* PhotoSwiprUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		244FCE6A1C6D5EE7006925F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 244FCE4D1C6D5EE7006925F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 244FCE541C6D5EE7006925F4;
+			remoteInfo = PhotoSwipr;
+		};
+		244FCE751C6D5EE7006925F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 244FCE4D1C6D5EE7006925F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 244FCE541C6D5EE7006925F4;
+			remoteInfo = PhotoSwipr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		244FCE551C6D5EE7006925F4 /* PhotoSwipr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoSwipr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		244FCE581C6D5EE7006925F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		244FCE5A1C6D5EE7006925F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		244FCE5D1C6D5EE7006925F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		244FCE5F1C6D5EE7006925F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		244FCE621C6D5EE7006925F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		244FCE641C6D5EE7006925F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		244FCE691C6D5EE7006925F4 /* PhotoSwiprTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoSwiprTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		244FCE6D1C6D5EE7006925F4 /* PhotoSwiprTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSwiprTests.swift; sourceTree = "<group>"; };
+		244FCE6F1C6D5EE7006925F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		244FCE741C6D5EE7006925F4 /* PhotoSwiprUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoSwiprUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		244FCE781C6D5EE7006925F4 /* PhotoSwiprUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSwiprUITests.swift; sourceTree = "<group>"; };
+		244FCE7A1C6D5EE7006925F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		244FCE521C6D5EE7006925F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		244FCE661C6D5EE7006925F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		244FCE711C6D5EE7006925F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		244FCE4C1C6D5EE7006925F4 = {
+			isa = PBXGroup;
+			children = (
+				244FCE571C6D5EE7006925F4 /* PhotoSwipr */,
+				244FCE6C1C6D5EE7006925F4 /* PhotoSwiprTests */,
+				244FCE771C6D5EE7006925F4 /* PhotoSwiprUITests */,
+				244FCE561C6D5EE7006925F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		244FCE561C6D5EE7006925F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				244FCE551C6D5EE7006925F4 /* PhotoSwipr.app */,
+				244FCE691C6D5EE7006925F4 /* PhotoSwiprTests.xctest */,
+				244FCE741C6D5EE7006925F4 /* PhotoSwiprUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		244FCE571C6D5EE7006925F4 /* PhotoSwipr */ = {
+			isa = PBXGroup;
+			children = (
+				244FCE581C6D5EE7006925F4 /* AppDelegate.swift */,
+				244FCE5A1C6D5EE7006925F4 /* ViewController.swift */,
+				244FCE5C1C6D5EE7006925F4 /* Main.storyboard */,
+				244FCE5F1C6D5EE7006925F4 /* Assets.xcassets */,
+				244FCE611C6D5EE7006925F4 /* LaunchScreen.storyboard */,
+				244FCE641C6D5EE7006925F4 /* Info.plist */,
+			);
+			path = PhotoSwipr;
+			sourceTree = "<group>";
+		};
+		244FCE6C1C6D5EE7006925F4 /* PhotoSwiprTests */ = {
+			isa = PBXGroup;
+			children = (
+				244FCE6D1C6D5EE7006925F4 /* PhotoSwiprTests.swift */,
+				244FCE6F1C6D5EE7006925F4 /* Info.plist */,
+			);
+			path = PhotoSwiprTests;
+			sourceTree = "<group>";
+		};
+		244FCE771C6D5EE7006925F4 /* PhotoSwiprUITests */ = {
+			isa = PBXGroup;
+			children = (
+				244FCE781C6D5EE7006925F4 /* PhotoSwiprUITests.swift */,
+				244FCE7A1C6D5EE7006925F4 /* Info.plist */,
+			);
+			path = PhotoSwiprUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		244FCE541C6D5EE7006925F4 /* PhotoSwipr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 244FCE7D1C6D5EE7006925F4 /* Build configuration list for PBXNativeTarget "PhotoSwipr" */;
+			buildPhases = (
+				244FCE511C6D5EE7006925F4 /* Sources */,
+				244FCE521C6D5EE7006925F4 /* Frameworks */,
+				244FCE531C6D5EE7006925F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoSwipr;
+			productName = PhotoSwipr;
+			productReference = 244FCE551C6D5EE7006925F4 /* PhotoSwipr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		244FCE681C6D5EE7006925F4 /* PhotoSwiprTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 244FCE801C6D5EE7006925F4 /* Build configuration list for PBXNativeTarget "PhotoSwiprTests" */;
+			buildPhases = (
+				244FCE651C6D5EE7006925F4 /* Sources */,
+				244FCE661C6D5EE7006925F4 /* Frameworks */,
+				244FCE671C6D5EE7006925F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				244FCE6B1C6D5EE7006925F4 /* PBXTargetDependency */,
+			);
+			name = PhotoSwiprTests;
+			productName = PhotoSwiprTests;
+			productReference = 244FCE691C6D5EE7006925F4 /* PhotoSwiprTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		244FCE731C6D5EE7006925F4 /* PhotoSwiprUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 244FCE831C6D5EE7006925F4 /* Build configuration list for PBXNativeTarget "PhotoSwiprUITests" */;
+			buildPhases = (
+				244FCE701C6D5EE7006925F4 /* Sources */,
+				244FCE711C6D5EE7006925F4 /* Frameworks */,
+				244FCE721C6D5EE7006925F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				244FCE761C6D5EE7006925F4 /* PBXTargetDependency */,
+			);
+			name = PhotoSwiprUITests;
+			productName = PhotoSwiprUITests;
+			productReference = 244FCE741C6D5EE7006925F4 /* PhotoSwiprUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		244FCE4D1C6D5EE7006925F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Arun Nagarajan";
+				TargetAttributes = {
+					244FCE541C6D5EE7006925F4 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					244FCE681C6D5EE7006925F4 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 244FCE541C6D5EE7006925F4;
+					};
+					244FCE731C6D5EE7006925F4 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 244FCE541C6D5EE7006925F4;
+					};
+				};
+			};
+			buildConfigurationList = 244FCE501C6D5EE7006925F4 /* Build configuration list for PBXProject "PhotoSwipr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 244FCE4C1C6D5EE7006925F4;
+			productRefGroup = 244FCE561C6D5EE7006925F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				244FCE541C6D5EE7006925F4 /* PhotoSwipr */,
+				244FCE681C6D5EE7006925F4 /* PhotoSwiprTests */,
+				244FCE731C6D5EE7006925F4 /* PhotoSwiprUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		244FCE531C6D5EE7006925F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244FCE631C6D5EE7006925F4 /* LaunchScreen.storyboard in Resources */,
+				244FCE601C6D5EE7006925F4 /* Assets.xcassets in Resources */,
+				244FCE5E1C6D5EE7006925F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		244FCE671C6D5EE7006925F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		244FCE721C6D5EE7006925F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		244FCE511C6D5EE7006925F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244FCE5B1C6D5EE7006925F4 /* ViewController.swift in Sources */,
+				244FCE591C6D5EE7006925F4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		244FCE651C6D5EE7006925F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244FCE6E1C6D5EE7006925F4 /* PhotoSwiprTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		244FCE701C6D5EE7006925F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244FCE791C6D5EE7006925F4 /* PhotoSwiprUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		244FCE6B1C6D5EE7006925F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 244FCE541C6D5EE7006925F4 /* PhotoSwipr */;
+			targetProxy = 244FCE6A1C6D5EE7006925F4 /* PBXContainerItemProxy */;
+		};
+		244FCE761C6D5EE7006925F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 244FCE541C6D5EE7006925F4 /* PhotoSwipr */;
+			targetProxy = 244FCE751C6D5EE7006925F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		244FCE5C1C6D5EE7006925F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				244FCE5D1C6D5EE7006925F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		244FCE611C6D5EE7006925F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				244FCE621C6D5EE7006925F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		244FCE7B1C6D5EE7006925F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		244FCE7C1C6D5EE7006925F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		244FCE7E1C6D5EE7006925F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhotoSwipr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AN.PhotoSwipr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		244FCE7F1C6D5EE7006925F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhotoSwipr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AN.PhotoSwipr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		244FCE811C6D5EE7006925F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhotoSwiprTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AN.PhotoSwiprTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoSwipr.app/PhotoSwipr";
+			};
+			name = Debug;
+		};
+		244FCE821C6D5EE7006925F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhotoSwiprTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AN.PhotoSwiprTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoSwipr.app/PhotoSwipr";
+			};
+			name = Release;
+		};
+		244FCE841C6D5EE7006925F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PhotoSwiprUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AN.PhotoSwiprUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PhotoSwipr;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		244FCE851C6D5EE7006925F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PhotoSwiprUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AN.PhotoSwiprUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PhotoSwipr;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		244FCE501C6D5EE7006925F4 /* Build configuration list for PBXProject "PhotoSwipr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				244FCE7B1C6D5EE7006925F4 /* Debug */,
+				244FCE7C1C6D5EE7006925F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		244FCE7D1C6D5EE7006925F4 /* Build configuration list for PBXNativeTarget "PhotoSwipr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				244FCE7E1C6D5EE7006925F4 /* Debug */,
+				244FCE7F1C6D5EE7006925F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		244FCE801C6D5EE7006925F4 /* Build configuration list for PBXNativeTarget "PhotoSwiprTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				244FCE811C6D5EE7006925F4 /* Debug */,
+				244FCE821C6D5EE7006925F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		244FCE831C6D5EE7006925F4 /* Build configuration list for PBXNativeTarget "PhotoSwiprUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				244FCE841C6D5EE7006925F4 /* Debug */,
+				244FCE851C6D5EE7006925F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 244FCE4D1C6D5EE7006925F4 /* Project object */;
+}

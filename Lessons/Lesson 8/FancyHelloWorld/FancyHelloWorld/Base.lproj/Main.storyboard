@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="23m-Qb-aq1">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="FancyHelloWorld" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jxz-iW-r1s">
+                                <rect key="frame" x="285" y="285" width="30" height="30"/>
+                                <state key="normal" title="First"/>
+                                <connections>
+                                    <segue destination="ewa-RX-3uo" kind="show" identifier="first" id="tae-CT-nVV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Wc-vC-YS9">
+                                <rect key="frame" x="274" y="331" width="52" height="30"/>
+                                <state key="normal" title="Second"/>
+                                <connections>
+                                    <segue destination="ewa-RX-3uo" kind="show" identifier="second" id="qBg-An-xmk"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="upJ-Cr-Cuj">
+                                <rect key="frame" x="252" y="247" width="97" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="Zw2-AV-Lu0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G2V-63-Yxf">
+                                <rect key="frame" x="282" y="369" width="36" height="30"/>
+                                <state key="normal" title="Third"/>
+                                <connections>
+                                    <action selector="buttonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ws6-Iy-alK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.72801320973287498" green="0.78623442898643259" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="upJ-Cr-Cuj" firstAttribute="centerX" secondItem="Jxz-iW-r1s" secondAttribute="centerX" id="8ka-2U-iDa"/>
+                            <constraint firstItem="1Wc-vC-YS9" firstAttribute="top" secondItem="Jxz-iW-r1s" secondAttribute="bottom" constant="16" id="C5G-jA-1K1"/>
+                            <constraint firstItem="Jxz-iW-r1s" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="GYc-KB-4y6"/>
+                            <constraint firstItem="G2V-63-Yxf" firstAttribute="top" secondItem="1Wc-vC-YS9" secondAttribute="bottom" constant="8" symbolic="YES" id="Nku-9n-eRe"/>
+                            <constraint firstItem="1Wc-vC-YS9" firstAttribute="centerX" secondItem="Jxz-iW-r1s" secondAttribute="centerX" id="X6x-Av-pdl"/>
+                            <constraint firstItem="Jxz-iW-r1s" firstAttribute="top" secondItem="upJ-Cr-Cuj" secondAttribute="bottom" constant="8" symbolic="YES" id="odn-N0-1oX"/>
+                            <constraint firstItem="G2V-63-Yxf" firstAttribute="centerX" secondItem="1Wc-vC-YS9" secondAttribute="centerX" id="t27-IK-jUF"/>
+                            <constraint firstItem="1Wc-vC-YS9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xh6-P3-pmd"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="JBT-LC-kGN"/>
+                    <connections>
+                        <outlet property="textField" destination="upJ-Cr-Cuj" id="Fh5-0G-pn6"/>
+                        <outlet property="thirdButton" destination="G2V-63-Yxf" id="dNM-ih-4az"/>
+                        <segue destination="ewa-RX-3uo" kind="show" identifier="magicSegue" id="xJe-Ee-6xe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="733" y="339"/>
+        </scene>
+        <!--Message View Controller-->
+        <scene sceneID="8HL-mD-YBR">
+            <objects>
+                <viewController id="ewa-RX-3uo" customClass="MessageViewController" customModule="FancyHelloWorld" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zEC-H5-jYa"/>
+                        <viewControllerLayoutGuide type="bottom" id="to5-Uh-39x"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Rm4-eW-OHQ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wv1-3N-Pzb">
+                                <rect key="frame" x="279" y="289" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.79224287568316254" blue="0.8494567210356645" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Wv1-3N-Pzb" firstAttribute="centerX" secondItem="Rm4-eW-OHQ" secondAttribute="centerX" id="1ua-85-Bzz"/>
+                            <constraint firstItem="Wv1-3N-Pzb" firstAttribute="centerY" secondItem="Rm4-eW-OHQ" secondAttribute="centerY" id="jqg-J3-mMh"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="messageLabel" destination="Wv1-3N-Pzb" id="dLn-tR-ctp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DBf-Hz-szG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1467" y="338"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Fah-1I-JBj">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="23m-Qb-aq1" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="54r-J7-xbB">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="gVD-jz-tv0"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f6o-29-NGa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-79" y="339"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="xJe-Ee-6xe"/>
+    </inferredMetricsTieBreakers>
+</document>

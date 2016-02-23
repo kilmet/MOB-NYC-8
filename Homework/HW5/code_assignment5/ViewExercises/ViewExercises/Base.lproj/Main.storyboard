@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="oCn-mj-ulb">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--Exercise 1-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="Exercise1ViewController" customModule="ViewExercises" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1Kd-uQ-RS7"/>
+                        <viewControllerLayoutGuide type="bottom" id="Gbj-em-Fa6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Exercise 1" id="2mB-ge-Uhb">
+                        <barButtonItem key="rightBarButtonItem" title="To Exercise 2" id="EhS-b5-Aa5">
+                            <connections>
+                                <segue destination="zu7-jl-xgT" kind="show" id="Uxi-a6-URV"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1300" y="1122"/>
+        </scene>
+        <!--Exercise 2-->
+        <scene sceneID="yZw-1Y-z6R">
+            <objects>
+                <viewController id="zu7-jl-xgT" customClass="Exercise2ViewController" customModule="ViewExercises" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cOA-To-2Aj"/>
+                        <viewControllerLayoutGuide type="bottom" id="SOn-aA-KPr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9ao-5x-kab">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Exercise 2" id="Wuw-iX-OHt">
+                        <barButtonItem key="rightBarButtonItem" title="To Exercise 3" id="nyM-AR-q1C">
+                            <connections>
+                                <segue destination="f1o-eE-ZI1" kind="show" id="7r0-cV-VPK"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N0S-Hk-srD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2075" y="1122"/>
+        </scene>
+        <!--Exercise 3-->
+        <scene sceneID="SbR-bS-wXa">
+            <objects>
+                <viewController id="f1o-eE-ZI1" customClass="Exercise3ViewController" customModule="ViewExercises" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lvR-jb-zgI"/>
+                        <viewControllerLayoutGuide type="bottom" id="zno-Cj-xp0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WKO-sW-VH4">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Exercise 3" id="t5n-Px-SCN">
+                        <barButtonItem key="rightBarButtonItem" title="To Exercise 4" id="H0b-Uo-1LK">
+                            <connections>
+                                <segue destination="z1n-lB-i32" kind="show" id="uha-Wu-Hm2"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DoM-S6-7ri" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2791" y="1122"/>
+        </scene>
+        <!--Exercise 4-->
+        <scene sceneID="MDL-dW-KWQ">
+            <objects>
+                <viewController id="z1n-lB-i32" customClass="Exercise4ViewController" customModule="ViewExercises" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cjq-e7-2gp"/>
+                        <viewControllerLayoutGuide type="bottom" id="VVz-Oz-niq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zvX-B8-Deo">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Exercise 4" id="pgu-24-37Y">
+                        <barButtonItem key="rightBarButtonItem" title="To Exercise 5" id="K49-dC-BdQ">
+                            <connections>
+                                <segue destination="kRf-HH-lAp" kind="show" id="b0P-13-co8"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mQ9-Lt-n0h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3494" y="1122"/>
+        </scene>
+        <!--Exercise 5-->
+        <scene sceneID="Lbs-tt-oKd">
+            <objects>
+                <viewController id="kRf-HH-lAp" customClass="Exercise5ViewController" customModule="ViewExercises" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OIQ-Ff-Pne"/>
+                        <viewControllerLayoutGuide type="bottom" id="KTh-E2-xBW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zb1-4e-cit">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Exercise 5" id="J2d-VF-0Rx"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4ha-0C-hQs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4190" y="1122"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="XY2-oL-4Na">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="oCn-mj-ulb" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="g12-Pu-B84">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Csh-jz-bIq"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sJH-wr-n7J" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="462" y="1122"/>
+        </scene>
+    </scenes>
+</document>

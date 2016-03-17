@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Cb5-j1-aH8">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="cku-Hi-eyz">
+            <objects>
+                <navigationController id="Cb5-j1-aH8" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="2GO-zE-THw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="Zj1-AC-kIa"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="COv-E5-Rpl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="612" y="-442"/>
+        </scene>
+        <!--First View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="FirstViewController" customModule="Lesson07" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f0Q-F0-v0f">
+                                <rect key="frame" x="16" y="0.0" width="568" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">When this view controller loads, read a String and Double from NSUserDefaults under the keys "test_string" and "test_number," respectively. Display them in this text view.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="f0Q-F0-v0f" secondAttribute="bottom" id="2Zd-9Z-cf8"/>
+                            <constraint firstItem="f0Q-F0-v0f" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" id="4xH-6t-Eyw"/>
+                            <constraint firstItem="f0Q-F0-v0f" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="Eg1-hx-CPk"/>
+                            <constraint firstAttribute="centerX" secondItem="f0Q-F0-v0f" secondAttribute="centerX" id="NrF-CX-uk6"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="f0Q-F0-v0f" secondAttribute="bottom" id="O4D-Fd-QFe"/>
+                            <constraint firstItem="f0Q-F0-v0f" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="RpM-Qb-KOQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="f0Q-F0-v0f" secondAttribute="trailing" id="cVM-bE-HCb"/>
+                            <constraint firstAttribute="centerY" secondItem="f0Q-F0-v0f" secondAttribute="centerY" id="dyd-eo-1tW"/>
+                            <constraint firstItem="f0Q-F0-v0f" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="ehT-kj-wsJ"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Eg1-hx-CPk"/>
+                                <exclude reference="NrF-CX-uk6"/>
+                                <exclude reference="cVM-bE-HCb"/>
+                                <exclude reference="dyd-eo-1tW"/>
+                                <exclude reference="O4D-Fd-QFe"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="puK-bQ-bBK">
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="hS2-GZ-L7q">
+                            <connections>
+                                <segue destination="0YQ-jj-Cgs" kind="show" id="hRZ-Rp-kK1"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1315" y="-442"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="ZHi-xz-gPd">
+            <objects>
+                <viewController id="0YQ-jj-Cgs" customClass="SecondViewController" customModule="Lesson07" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="P2f-zQ-b9f"/>
+                        <viewControllerLayoutGuide type="bottom" id="GJ6-Uw-HyL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="T5y-Ju-Aau">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" text="This text view should display the values of a text field and slider placed in the app's Settings Bundle." translatesAutoresizingMaskIntoConstraints="NO" id="STF-CW-inV">
+                                <rect key="frame" x="16" y="0.0" width="568" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="STF-CW-inV" secondAttribute="trailing" id="Yox-7U-Adz"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="STF-CW-inV" secondAttribute="bottom" id="dA5-Qy-2wp"/>
+                            <constraint firstItem="STF-CW-inV" firstAttribute="leading" secondItem="T5y-Ju-Aau" secondAttribute="leadingMargin" id="f24-5L-utT"/>
+                            <constraint firstItem="STF-CW-inV" firstAttribute="top" secondItem="T5y-Ju-Aau" secondAttribute="topMargin" id="mNI-yJ-rUF"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="XXi-gI-j27">
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="snt-4M-qZK">
+                            <connections>
+                                <segue destination="lWA-Qe-LpN" kind="show" id="Rpo-z5-jzT"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vO4-kS-iSm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2006" y="-442"/>
+        </scene>
+        <!--Third View Controller-->
+        <scene sceneID="c41-hS-gzB">
+            <objects>
+                <viewController id="lWA-Qe-LpN" customClass="ThirdViewController" customModule="Lesson07" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Pqq-dz-Wdp"/>
+                        <viewControllerLayoutGuide type="bottom" id="rnR-sF-Djc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VXK-EB-7Kt">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" text="Save this text into a file when tapping Next above." translatesAutoresizingMaskIntoConstraints="NO" id="zba-PB-Qsj">
+                                <rect key="frame" x="16" y="0.0" width="568" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="zba-PB-Qsj" firstAttribute="trailing" secondItem="VXK-EB-7Kt" secondAttribute="trailingMargin" id="Phv-Ls-lAQ"/>
+                            <constraint firstItem="zba-PB-Qsj" firstAttribute="top" secondItem="VXK-EB-7Kt" secondAttribute="topMargin" id="jDh-5e-MJk"/>
+                            <constraint firstItem="rnR-sF-Djc" firstAttribute="top" secondItem="zba-PB-Qsj" secondAttribute="bottom" id="jJm-Xn-MZ0"/>
+                            <constraint firstItem="zba-PB-Qsj" firstAttribute="leading" secondItem="VXK-EB-7Kt" secondAttribute="leadingMargin" id="jul-sE-bbV"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="W4c-fq-GLh">
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="HyF-Nz-TRS">
+                            <connections>
+                                <segue destination="K7i-wr-zMx" kind="show" id="Kqp-TL-a7t"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JI4-wm-MiE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2700" y="-442"/>
+        </scene>
+        <!--Fourth View Controller-->
+        <scene sceneID="qea-Gp-W7f">
+            <objects>
+                <viewController id="K7i-wr-zMx" customClass="FourthViewController" customModule="Lesson07" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GWf-Me-AsF"/>
+                        <viewControllerLayoutGuide type="bottom" id="weI-l6-W02"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zLC-Ap-9fc">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="When this view controller loads, it should read the text saved in the file used in the previous view controller." translatesAutoresizingMaskIntoConstraints="NO" id="IYJ-9d-N0H">
+                                <rect key="frame" x="16" y="0.0" width="568" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="IYJ-9d-N0H" secondAttribute="trailing" constant="-4" id="Gbu-aW-ETm"/>
+                            <constraint firstItem="IYJ-9d-N0H" firstAttribute="top" secondItem="GWf-Me-AsF" secondAttribute="bottom" constant="-64" id="is8-yQ-O6e"/>
+                            <constraint firstItem="IYJ-9d-N0H" firstAttribute="leading" secondItem="zLC-Ap-9fc" secondAttribute="leadingMargin" constant="-4" id="m8i-kx-qAt"/>
+                            <constraint firstItem="weI-l6-W02" firstAttribute="top" secondItem="IYJ-9d-N0H" secondAttribute="bottom" id="xVo-30-M99"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Q7s-qU-Ioc">
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="ex5-49-wOt">
+                            <connections>
+                                <segue destination="YJJ-cr-Uey" kind="show" id="A5L-Tx-9mF"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ja3-tn-t9y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3403" y="-442"/>
+        </scene>
+        <!--Fifth View Controller-->
+        <scene sceneID="Ddp-sS-ghI">
+            <objects>
+                <viewController id="YJJ-cr-Uey" customClass="FifthViewController" customModule="Lesson07" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Wht-4d-heY"/>
+                        <viewControllerLayoutGuide type="bottom" id="mKQ-My-Pz8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OOa-fM-A4j">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Save all the words typed here into an Array of Strings (split by spaces) in a property list file when tapping Next." translatesAutoresizingMaskIntoConstraints="NO" id="g8w-4f-fdC">
+                                <rect key="frame" x="16" y="0.0" width="568" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="g8w-4f-fdC" firstAttribute="leading" secondItem="OOa-fM-A4j" secondAttribute="leadingMargin" constant="-4" id="0c6-lC-QyC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="g8w-4f-fdC" secondAttribute="trailing" constant="-4" id="LgS-59-eWV"/>
+                            <constraint firstItem="g8w-4f-fdC" firstAttribute="top" secondItem="Wht-4d-heY" secondAttribute="bottom" constant="-64" id="aPA-tA-69j"/>
+                            <constraint firstItem="mKQ-My-Pz8" firstAttribute="top" secondItem="g8w-4f-fdC" secondAttribute="bottom" id="voB-5O-KVi"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="J8l-kX-36I">
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="fdX-3q-7No">
+                            <connections>
+                                <segue destination="EJr-qo-djs" kind="show" id="5Ve-5X-T0O"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zuk-gs-OMO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4086" y="-442"/>
+        </scene>
+        <!--Sixth View Controller-->
+        <scene sceneID="Oxo-FT-w8O">
+            <objects>
+                <viewController id="EJr-qo-djs" customClass="SixthViewController" customModule="Lesson07" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Iql-H4-p6b"/>
+                        <viewControllerLayoutGuide type="bottom" id="5rA-JK-ZXh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="shY-ki-PNq">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xxT-Lm-hNR">
+                                <rect key="frame" x="16" y="0.0" width="568" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">When this view controller loads, read the Array from the propertly list file used in the previous view controller and populate this text field with the Strings joined by single spaces.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xxT-Lm-hNR" firstAttribute="leading" secondItem="shY-ki-PNq" secondAttribute="leadingMargin" constant="-4" id="Ldy-ed-TxS"/>
+                            <constraint firstItem="5rA-JK-ZXh" firstAttribute="top" secondItem="xxT-Lm-hNR" secondAttribute="bottom" id="Nyx-w6-2BW"/>
+                            <constraint firstItem="xxT-Lm-hNR" firstAttribute="top" secondItem="Iql-H4-p6b" secondAttribute="bottom" constant="-64" id="pri-P2-pFK"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="xxT-Lm-hNR" secondAttribute="trailing" constant="-4" id="r2M-O4-aSw"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="VhL-wN-QMX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QNf-fV-B2A" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4801" y="-442"/>
+        </scene>
+    </scenes>
+</document>

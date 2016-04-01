@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2427069E1CAE0043006033D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2427069D1CAE0043006033D1 /* AppDelegate.swift */; };
+		242706A01CAE0043006033D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2427069F1CAE0043006033D1 /* ViewController.swift */; };
+		242706A31CAE0043006033D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 242706A11CAE0043006033D1 /* Main.storyboard */; };
+		242706A51CAE0043006033D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 242706A41CAE0043006033D1 /* Assets.xcassets */; };
+		242706A81CAE0043006033D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 242706A61CAE0043006033D1 /* LaunchScreen.storyboard */; };
+		56CE967CB92FB305992AD4D1 /* Pods_Citibike.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 402B9B9ABC27E3FC2BBC2782 /* Pods_Citibike.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1045DA4A012D23E9EA91401D /* Pods-Citibike.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Citibike.release.xcconfig"; path = "Pods/Target Support Files/Pods-Citibike/Pods-Citibike.release.xcconfig"; sourceTree = "<group>"; };
+		2427069A1CAE0043006033D1 /* Citibike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Citibike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2427069D1CAE0043006033D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2427069F1CAE0043006033D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		242706A21CAE0043006033D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		242706A41CAE0043006033D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		242706A71CAE0043006033D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		242706A91CAE0043006033D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		402B9B9ABC27E3FC2BBC2782 /* Pods_Citibike.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Citibike.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6011EB17EB28473577139E19 /* Pods-Citibike.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Citibike.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Citibike/Pods-Citibike.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		242706971CAE0043006033D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56CE967CB92FB305992AD4D1 /* Pods_Citibike.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		106FD42C946879B75EA000CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				402B9B9ABC27E3FC2BBC2782 /* Pods_Citibike.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		242706911CAE0043006033D1 = {
+			isa = PBXGroup;
+			children = (
+				2427069C1CAE0043006033D1 /* Citibike */,
+				2427069B1CAE0043006033D1 /* Products */,
+				27E0178336B7F9E6C6DBC9AB /* Pods */,
+				106FD42C946879B75EA000CE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2427069B1CAE0043006033D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2427069A1CAE0043006033D1 /* Citibike.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2427069C1CAE0043006033D1 /* Citibike */ = {
+			isa = PBXGroup;
+			children = (
+				2427069D1CAE0043006033D1 /* AppDelegate.swift */,
+				2427069F1CAE0043006033D1 /* ViewController.swift */,
+				242706A11CAE0043006033D1 /* Main.storyboard */,
+				242706A41CAE0043006033D1 /* Assets.xcassets */,
+				242706A61CAE0043006033D1 /* LaunchScreen.storyboard */,
+				242706A91CAE0043006033D1 /* Info.plist */,
+			);
+			path = Citibike;
+			sourceTree = "<group>";
+		};
+		27E0178336B7F9E6C6DBC9AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6011EB17EB28473577139E19 /* Pods-Citibike.debug.xcconfig */,
+				1045DA4A012D23E9EA91401D /* Pods-Citibike.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		242706991CAE0043006033D1 /* Citibike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 242706AC1CAE0043006033D1 /* Build configuration list for PBXNativeTarget "Citibike" */;
+			buildPhases = (
+				27B37FFEF92A818AC0BE8563 /* Check Pods Manifest.lock */,
+				242706961CAE0043006033D1 /* Sources */,
+				242706971CAE0043006033D1 /* Frameworks */,
+				242706981CAE0043006033D1 /* Resources */,
+				5020366C91DD9B663F051B8B /* Embed Pods Frameworks */,
+				7CB91A45BD302E79EC29D460 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Citibike;
+			productName = Citibike;
+			productReference = 2427069A1CAE0043006033D1 /* Citibike.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		242706921CAE0043006033D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Arun Nagarajan";
+				TargetAttributes = {
+					242706991CAE0043006033D1 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 242706951CAE0043006033D1 /* Build configuration list for PBXProject "Citibike" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 242706911CAE0043006033D1;
+			productRefGroup = 2427069B1CAE0043006033D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				242706991CAE0043006033D1 /* Citibike */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		242706981CAE0043006033D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				242706A81CAE0043006033D1 /* LaunchScreen.storyboard in Resources */,
+				242706A51CAE0043006033D1 /* Assets.xcassets in Resources */,
+				242706A31CAE0043006033D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27B37FFEF92A818AC0BE8563 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5020366C91DD9B663F051B8B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Citibike/Pods-Citibike-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CB91A45BD302E79EC29D460 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Citibike/Pods-Citibike-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		242706961CAE0043006033D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				242706A01CAE0043006033D1 /* ViewController.swift in Sources */,
+				2427069E1CAE0043006033D1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		242706A11CAE0043006033D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				242706A21CAE0043006033D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		242706A61CAE0043006033D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				242706A71CAE0043006033D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		242706AA1CAE0043006033D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		242706AB1CAE0043006033D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		242706AD1CAE0043006033D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6011EB17EB28473577139E19 /* Pods-Citibike.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Citibike/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AN.Citibike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		242706AE1CAE0043006033D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1045DA4A012D23E9EA91401D /* Pods-Citibike.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Citibike/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AN.Citibike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		242706951CAE0043006033D1 /* Build configuration list for PBXProject "Citibike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				242706AA1CAE0043006033D1 /* Debug */,
+				242706AB1CAE0043006033D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		242706AC1CAE0043006033D1 /* Build configuration list for PBXNativeTarget "Citibike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				242706AD1CAE0043006033D1 /* Debug */,
+				242706AE1CAE0043006033D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 242706921CAE0043006033D1 /* Project object */;
+}

@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		002A22ABE6D5C828BB299D3F /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0ED24ACADBB4D2A5A4DEDB /* Result.swift */; };
+		14B286B246D12A8D503031C1 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A779E1562FF32A3FFCCD173C /* MultipartFormData.swift */; };
+		1BDA0CDF5E598E135C2DE0CD /* Pods-Citibike-Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA88B08157062CED67A0F39 /* Pods-Citibike-Alamofire-dummy.m */; };
+		1DF230D2A960F18BC53D2B83 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0414127FF3BEC5260BD1AFC /* SwiftyJSON.swift */; };
+		1FC2364CE7FB25F15185B9F3 /* Pods-Citibike-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C756BF75E641448E6326062A /* Pods-Citibike-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26D07243CE3428947E0D5F36 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52718028A6845A6126210781 /* Alamofire.swift */; };
+		2B60D28F0E12B22BF28B2A21 /* Pods-Citibike-SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56B02F99AF96E54B3183201B /* Pods-Citibike-SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C744B721C04B30EA28A6602 /* Pods-Citibike-Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F4D7E6D036A3CF5366B6151 /* Pods-Citibike-Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DA9F6044472D4D3EFD99A70 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3D35C17F11091A4B54F7EF /* NetworkReachabilityManager.swift */; };
+		32D4C82FDB22FB3185A91954 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6E0172BF05F03FC5BFEC74 /* ResponseSerialization.swift */; };
+		33DAFB970DCBDFE06D43C082 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EC941CE20B18BE11BCE747 /* ParameterEncoding.swift */; };
+		3B69719BFEE7F9240674AD7C /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22544CCADC5A912C1F349D87 /* Manager.swift */; };
+		3FC69A2A994EE80476A427E5 /* Pods-Citibike-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB28F1463A5058EAFC9BF0BB /* Pods-Citibike-dummy.m */; };
+		5869754203CF67A28160B0A0 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F239E581116A77404B52A8 /* Timeline.swift */; };
+		73CDFD7D21C7107046C9DF5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A56DCDDE931335427846971 /* Foundation.framework */; };
+		77EB09F461A8A4067E762C4D /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D98F1A6A12461B4935757B5 /* Response.swift */; };
+		78BE211655E2D96619DF5633 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC34C47F015F78B46100022 /* Notifications.swift */; };
+		81BA2C5D98B9CD9F6C88E629 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D2D66F11905756301F3E38 /* Request.swift */; };
+		86951FF8F1DB62BF368C6A6C /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9B9C2BCD806F76158F3C73 /* ServerTrustPolicy.swift */; };
+		898404A1C046918144D58FE8 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242A3656FAF4D660105A78B2 /* Validation.swift */; };
+		BDD6C552F3E1B65FA9A02BFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A56DCDDE931335427846971 /* Foundation.framework */; };
+		D3F662ED2D8D41045686C1AB /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE51A549359C598DB980755 /* Error.swift */; };
+		E642F56C911E0AFF2F724AE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A56DCDDE931335427846971 /* Foundation.framework */; };
+		EFD222E4DD99D1302444B7A7 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA76381842B75FD63453706 /* Upload.swift */; };
+		F7857BDAA5D0A868AE006A88 /* Pods-Citibike-SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27143CCD6EC3DD951ABC8E90 /* Pods-Citibike-SwiftyJSON-dummy.m */; };
+		FEC60FE362B7FEBD29E084F2 /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BEE36B95C4850332D6B694 /* Stream.swift */; };
+		FED26DE0DE247F102046191C /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53101645346722BF20F4A98 /* Download.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C1DA11AE91A7EB7B39946EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 362BA965B66CA98CD8AAE777 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55498D6B402F52BE10CC5B47;
+			remoteInfo = "Pods-Citibike-SwiftyJSON";
+		};
+		B9C8C2312B3EEE158498585E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 362BA965B66CA98CD8AAE777 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6270855E3F2840678DE3281;
+			remoteInfo = "Pods-Citibike-Alamofire";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F3D35C17F11091A4B54F7EF /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		0FC34C47F015F78B46100022 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		1B5AFAC8C84AF27A340FF0FF /* Pods-Citibike-Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Citibike-Alamofire.modulemap"; sourceTree = "<group>"; };
+		1E36F0892E0264EC00F425F9 /* Pods-Citibike.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Citibike.modulemap"; sourceTree = "<group>"; };
+		22544CCADC5A912C1F349D87 /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
+		242A3656FAF4D660105A78B2 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		27143CCD6EC3DD951ABC8E90 /* Pods-Citibike-SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Citibike-SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		284E65A6587CE57E75EC91C4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DE51A549359C598DB980755 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Source/Error.swift; sourceTree = "<group>"; };
+		2ED7CC579F1270C05FA17B7B /* Pods-Citibike-SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Citibike-SwiftyJSON.modulemap"; sourceTree = "<group>"; };
+		305B0D5B78031C910F353D56 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		30B20B04D2A7837704BC5674 /* Pods-Citibike-Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Citibike-Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		319A1C120EB15C9DE3DC44B4 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35CF43F3C322D2CC1159C661 /* Pods-Citibike.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Citibike.release.xcconfig"; sourceTree = "<group>"; };
+		3A56DCDDE931335427846971 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4141E434E2B70D4182DC4E90 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46D2D66F11905756301F3E38 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		4CFABA927ED40E7C5FA85C4A /* Pods-Citibike-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Citibike-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4D4B78E7ABE75559CDA18D7C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52718028A6845A6126210781 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		56B02F99AF96E54B3183201B /* Pods-Citibike-SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Citibike-SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		61EC941CE20B18BE11BCE747 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		6B0ED24ACADBB4D2A5A4DEDB /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		6F4D7E6D036A3CF5366B6151 /* Pods-Citibike-Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Citibike-Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		7C6E0172BF05F03FC5BFEC74 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		82F239E581116A77404B52A8 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		8D98F1A6A12461B4935757B5 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		96298A69FA032FAB243C3152 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C5169E27298057FDAD7FF66 /* Pods-Citibike-SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Citibike-SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		A0E3ECE1E32F94B600E262F7 /* Pods-Citibike-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Citibike-environment.h"; sourceTree = "<group>"; };
+		A104B333AAEF03AD3473A214 /* Pods-Citibike-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Citibike-resources.sh"; sourceTree = "<group>"; };
+		A324698214E4B3F9E3070E64 /* Pods-Citibike-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Citibike-acknowledgements.plist"; sourceTree = "<group>"; };
+		A779E1562FF32A3FFCCD173C /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		A8BEE36B95C4850332D6B694 /* Stream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stream.swift; path = Source/Stream.swift; sourceTree = "<group>"; };
+		AA9D4F5CDF20B5DB3B3195DB /* Pods_Citibike.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Citibike.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF864863353E488E324D13D /* Pods-Citibike-SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Citibike-SwiftyJSON.xcconfig"; sourceTree = "<group>"; };
+		ADA88B08157062CED67A0F39 /* Pods-Citibike-Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Citibike-Alamofire-dummy.m"; sourceTree = "<group>"; };
+		AEA4F2CEED7CE9FD1D7D5DF1 /* Pods-Citibike-SwiftyJSON-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Citibike-SwiftyJSON-Private.xcconfig"; sourceTree = "<group>"; };
+		B26E91A505771972BA808206 /* Pods-Citibike.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Citibike.debug.xcconfig"; sourceTree = "<group>"; };
+		B96958E722987C5DD0012AA8 /* Pods-Citibike-Alamofire-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Citibike-Alamofire-Private.xcconfig"; sourceTree = "<group>"; };
+		BCA76381842B75FD63453706 /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
+		BEC97280A7A95C9D4E1131EF /* Pods-Citibike-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Citibike-frameworks.sh"; sourceTree = "<group>"; };
+		C756BF75E641448E6326062A /* Pods-Citibike-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Citibike-umbrella.h"; sourceTree = "<group>"; };
+		D224CD8B60C7CD9273D60A2C /* Pods-Citibike-Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Citibike-Alamofire.xcconfig"; sourceTree = "<group>"; };
+		E53101645346722BF20F4A98 /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
+		F0414127FF3BEC5260BD1AFC /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		FB28F1463A5058EAFC9BF0BB /* Pods-Citibike-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Citibike-dummy.m"; sourceTree = "<group>"; };
+		FD9B9C2BCD806F76158F3C73 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		472AF9714D9936D3EAD33B5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E642F56C911E0AFF2F724AE8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C4F8B840FE35EC0CCBC3993 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDD6C552F3E1B65FA9A02BFE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC99711C245A2048D13AB253 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73CDFD7D21C7107046C9DF5B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A938139C674F2F715C2B688 = {
+			isa = PBXGroup;
+			children = (
+				305B0D5B78031C910F353D56 /* Podfile */,
+				F917EA64C6BE85A94080CCE1 /* Frameworks */,
+				B72699381257C00A77963F96 /* Pods */,
+				354E5612E9FCDAB02119854B /* Products */,
+				F6FA8C16D82DD1C1039EDA61 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		2AE04D2CEA4CF14D566ED6C9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				284E65A6587CE57E75EC91C4 /* Info.plist */,
+				1B5AFAC8C84AF27A340FF0FF /* Pods-Citibike-Alamofire.modulemap */,
+				D224CD8B60C7CD9273D60A2C /* Pods-Citibike-Alamofire.xcconfig */,
+				B96958E722987C5DD0012AA8 /* Pods-Citibike-Alamofire-Private.xcconfig */,
+				ADA88B08157062CED67A0F39 /* Pods-Citibike-Alamofire-dummy.m */,
+				30B20B04D2A7837704BC5674 /* Pods-Citibike-Alamofire-prefix.pch */,
+				6F4D7E6D036A3CF5366B6151 /* Pods-Citibike-Alamofire-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Citibike-Alamofire";
+			sourceTree = "<group>";
+		};
+		2CC13F390AA51D86F2D8C85A /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				52718028A6845A6126210781 /* Alamofire.swift */,
+				E53101645346722BF20F4A98 /* Download.swift */,
+				2DE51A549359C598DB980755 /* Error.swift */,
+				22544CCADC5A912C1F349D87 /* Manager.swift */,
+				A779E1562FF32A3FFCCD173C /* MultipartFormData.swift */,
+				0F3D35C17F11091A4B54F7EF /* NetworkReachabilityManager.swift */,
+				0FC34C47F015F78B46100022 /* Notifications.swift */,
+				61EC941CE20B18BE11BCE747 /* ParameterEncoding.swift */,
+				46D2D66F11905756301F3E38 /* Request.swift */,
+				8D98F1A6A12461B4935757B5 /* Response.swift */,
+				7C6E0172BF05F03FC5BFEC74 /* ResponseSerialization.swift */,
+				6B0ED24ACADBB4D2A5A4DEDB /* Result.swift */,
+				FD9B9C2BCD806F76158F3C73 /* ServerTrustPolicy.swift */,
+				A8BEE36B95C4850332D6B694 /* Stream.swift */,
+				82F239E581116A77404B52A8 /* Timeline.swift */,
+				BCA76381842B75FD63453706 /* Upload.swift */,
+				242A3656FAF4D660105A78B2 /* Validation.swift */,
+				2AE04D2CEA4CF14D566ED6C9 /* Support Files */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		354E5612E9FCDAB02119854B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96298A69FA032FAB243C3152 /* Alamofire.framework */,
+				AA9D4F5CDF20B5DB3B3195DB /* Pods_Citibike.framework */,
+				319A1C120EB15C9DE3DC44B4 /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BD12327EAB32FA2513243E0 /* Pods-Citibike */ = {
+			isa = PBXGroup;
+			children = (
+				4D4B78E7ABE75559CDA18D7C /* Info.plist */,
+				1E36F0892E0264EC00F425F9 /* Pods-Citibike.modulemap */,
+				4CFABA927ED40E7C5FA85C4A /* Pods-Citibike-acknowledgements.markdown */,
+				A324698214E4B3F9E3070E64 /* Pods-Citibike-acknowledgements.plist */,
+				FB28F1463A5058EAFC9BF0BB /* Pods-Citibike-dummy.m */,
+				A0E3ECE1E32F94B600E262F7 /* Pods-Citibike-environment.h */,
+				BEC97280A7A95C9D4E1131EF /* Pods-Citibike-frameworks.sh */,
+				A104B333AAEF03AD3473A214 /* Pods-Citibike-resources.sh */,
+				C756BF75E641448E6326062A /* Pods-Citibike-umbrella.h */,
+				B26E91A505771972BA808206 /* Pods-Citibike.debug.xcconfig */,
+				35CF43F3C322D2CC1159C661 /* Pods-Citibike.release.xcconfig */,
+			);
+			name = "Pods-Citibike";
+			path = "Target Support Files/Pods-Citibike";
+			sourceTree = "<group>";
+		};
+		B51894D494E84106B70EDD09 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4141E434E2B70D4182DC4E90 /* Info.plist */,
+				2ED7CC579F1270C05FA17B7B /* Pods-Citibike-SwiftyJSON.modulemap */,
+				ABF864863353E488E324D13D /* Pods-Citibike-SwiftyJSON.xcconfig */,
+				AEA4F2CEED7CE9FD1D7D5DF1 /* Pods-Citibike-SwiftyJSON-Private.xcconfig */,
+				27143CCD6EC3DD951ABC8E90 /* Pods-Citibike-SwiftyJSON-dummy.m */,
+				9C5169E27298057FDAD7FF66 /* Pods-Citibike-SwiftyJSON-prefix.pch */,
+				56B02F99AF96E54B3183201B /* Pods-Citibike-SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Citibike-SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		B72699381257C00A77963F96 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2CC13F390AA51D86F2D8C85A /* Alamofire */,
+				D91A5522FA74B6E2B08203C7 /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D91A5522FA74B6E2B08203C7 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				F0414127FF3BEC5260BD1AFC /* SwiftyJSON.swift */,
+				B51894D494E84106B70EDD09 /* Support Files */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		DADF7752126C93C56EEC138E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3A56DCDDE931335427846971 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F6FA8C16D82DD1C1039EDA61 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BD12327EAB32FA2513243E0 /* Pods-Citibike */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F917EA64C6BE85A94080CCE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DADF7752126C93C56EEC138E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		02189BFB08667010CC4F4984 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C744B721C04B30EA28A6602 /* Pods-Citibike-Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D348B37CC12D891D6AC4C62 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC2364CE7FB25F15185B9F3 /* Pods-Citibike-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9684F8E2EE68E0C47671687C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B60D28F0E12B22BF28B2A21 /* Pods-Citibike-SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		55498D6B402F52BE10CC5B47 /* Pods-Citibike-SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52A37BDBA627607806D994BF /* Build configuration list for PBXNativeTarget "Pods-Citibike-SwiftyJSON" */;
+			buildPhases = (
+				4B72781C2055D06DD7700A5C /* Sources */,
+				472AF9714D9936D3EAD33B5B /* Frameworks */,
+				9684F8E2EE68E0C47671687C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Citibike-SwiftyJSON";
+			productName = "Pods-Citibike-SwiftyJSON";
+			productReference = 319A1C120EB15C9DE3DC44B4 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7C1541C336E94426A53FF19F /* Pods-Citibike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2080074AD323863766A68903 /* Build configuration list for PBXNativeTarget "Pods-Citibike" */;
+			buildPhases = (
+				F3EA962E74539D308E7080FC /* Sources */,
+				DC99711C245A2048D13AB253 /* Frameworks */,
+				3D348B37CC12D891D6AC4C62 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1B3CA93DFE41C7C8532EE1C /* PBXTargetDependency */,
+				8F827FE5E75792ECB25258EA /* PBXTargetDependency */,
+			);
+			name = "Pods-Citibike";
+			productName = "Pods-Citibike";
+			productReference = AA9D4F5CDF20B5DB3B3195DB /* Pods_Citibike.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D6270855E3F2840678DE3281 /* Pods-Citibike-Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22C8B00AB3B82CE48DDB1D58 /* Build configuration list for PBXNativeTarget "Pods-Citibike-Alamofire" */;
+			buildPhases = (
+				28AA006DA7D9C4B41757C605 /* Sources */,
+				9C4F8B840FE35EC0CCBC3993 /* Frameworks */,
+				02189BFB08667010CC4F4984 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Citibike-Alamofire";
+			productName = "Pods-Citibike-Alamofire";
+			productReference = 96298A69FA032FAB243C3152 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		362BA965B66CA98CD8AAE777 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 9352FE283680C26844F5EDAA /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1A938139C674F2F715C2B688;
+			productRefGroup = 354E5612E9FCDAB02119854B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C1541C336E94426A53FF19F /* Pods-Citibike */,
+				D6270855E3F2840678DE3281 /* Pods-Citibike-Alamofire */,
+				55498D6B402F52BE10CC5B47 /* Pods-Citibike-SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28AA006DA7D9C4B41757C605 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D07243CE3428947E0D5F36 /* Alamofire.swift in Sources */,
+				FED26DE0DE247F102046191C /* Download.swift in Sources */,
+				D3F662ED2D8D41045686C1AB /* Error.swift in Sources */,
+				3B69719BFEE7F9240674AD7C /* Manager.swift in Sources */,
+				14B286B246D12A8D503031C1 /* MultipartFormData.swift in Sources */,
+				2DA9F6044472D4D3EFD99A70 /* NetworkReachabilityManager.swift in Sources */,
+				78BE211655E2D96619DF5633 /* Notifications.swift in Sources */,
+				33DAFB970DCBDFE06D43C082 /* ParameterEncoding.swift in Sources */,
+				1BDA0CDF5E598E135C2DE0CD /* Pods-Citibike-Alamofire-dummy.m in Sources */,
+				81BA2C5D98B9CD9F6C88E629 /* Request.swift in Sources */,
+				77EB09F461A8A4067E762C4D /* Response.swift in Sources */,
+				32D4C82FDB22FB3185A91954 /* ResponseSerialization.swift in Sources */,
+				002A22ABE6D5C828BB299D3F /* Result.swift in Sources */,
+				86951FF8F1DB62BF368C6A6C /* ServerTrustPolicy.swift in Sources */,
+				FEC60FE362B7FEBD29E084F2 /* Stream.swift in Sources */,
+				5869754203CF67A28160B0A0 /* Timeline.swift in Sources */,
+				EFD222E4DD99D1302444B7A7 /* Upload.swift in Sources */,
+				898404A1C046918144D58FE8 /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B72781C2055D06DD7700A5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7857BDAA5D0A868AE006A88 /* Pods-Citibike-SwiftyJSON-dummy.m in Sources */,
+				1DF230D2A960F18BC53D2B83 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3EA962E74539D308E7080FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC69A2A994EE80476A427E5 /* Pods-Citibike-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F827FE5E75792ECB25258EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Citibike-SwiftyJSON";
+			target = 55498D6B402F52BE10CC5B47 /* Pods-Citibike-SwiftyJSON */;
+			targetProxy = 3C1DA11AE91A7EB7B39946EF /* PBXContainerItemProxy */;
+		};
+		C1B3CA93DFE41C7C8532EE1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Citibike-Alamofire";
+			target = D6270855E3F2840678DE3281 /* Pods-Citibike-Alamofire */;
+			targetProxy = B9C8C2312B3EEE158498585E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		365B12CED39DD915B94922F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B96958E722987C5DD0012AA8 /* Pods-Citibike-Alamofire-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Citibike-Alamofire/Pods-Citibike-Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Citibike-Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Citibike-Alamofire/Pods-Citibike-Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		468DEB66B98846AC5195F9AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		56C1C0B90CDA99618BAC1A88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEA4F2CEED7CE9FD1D7D5DF1 /* Pods-Citibike-SwiftyJSON-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Citibike-SwiftyJSON/Pods-Citibike-SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Citibike-SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Citibike-SwiftyJSON/Pods-Citibike-SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6B30FE9E72CD27C7468FC908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		857D595CC3C48EC5CD989955 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B26E91A505771972BA808206 /* Pods-Citibike.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Citibike/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Citibike/Pods-Citibike.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Citibike;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B0686C9DB90B09CE350D5BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEA4F2CEED7CE9FD1D7D5DF1 /* Pods-Citibike-SwiftyJSON-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Citibike-SwiftyJSON/Pods-Citibike-SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Citibike-SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Citibike-SwiftyJSON/Pods-Citibike-SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C7BB7157F6D610EA1F7D8645 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B96958E722987C5DD0012AA8 /* Pods-Citibike-Alamofire-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Citibike-Alamofire/Pods-Citibike-Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Citibike-Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Citibike-Alamofire/Pods-Citibike-Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E5A87B684C56EA31C01C0ED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35CF43F3C322D2CC1159C661 /* Pods-Citibike.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Citibike/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Citibike/Pods-Citibike.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Citibike;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2080074AD323863766A68903 /* Build configuration list for PBXNativeTarget "Pods-Citibike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				857D595CC3C48EC5CD989955 /* Debug */,
+				E5A87B684C56EA31C01C0ED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22C8B00AB3B82CE48DDB1D58 /* Build configuration list for PBXNativeTarget "Pods-Citibike-Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7BB7157F6D610EA1F7D8645 /* Debug */,
+				365B12CED39DD915B94922F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52A37BDBA627607806D994BF /* Build configuration list for PBXNativeTarget "Pods-Citibike-SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B0686C9DB90B09CE350D5BA /* Debug */,
+				56C1C0B90CDA99618BAC1A88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9352FE283680C26844F5EDAA /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				468DEB66B98846AC5195F9AC /* Debug */,
+				6B30FE9E72CD27C7468FC908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 362BA965B66CA98CD8AAE777 /* Project object */;
+}
